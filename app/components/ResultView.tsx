@@ -19,8 +19,7 @@ export default function ResultView() {
   });
 
   if (!name) return null;
-  // if (loading) return <p className="mt-4 text-gray-500">Loading...</p>;
-  // if (error || !data?.pokemon) return <p className="mt-4 text-red-500">Not found</p>;
+  
   if (loading)
   return (
     <div className="flex items-center justify-center min-h-screen">
