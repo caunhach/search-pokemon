@@ -18,7 +18,7 @@ export default function SearchInput() {
     const params = new URLSearchParams(searchParams.toString());
     params.set('name', search.trim());
     const rawQs = params.toString().replace(/\+/g, ' ');
-+   router.push(`/?${rawQs}`);
+    router.push(`/?${rawQs}`);
   };
 
   // sync input value with query param
